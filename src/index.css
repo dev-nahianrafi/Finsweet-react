@@ -1,0 +1,35 @@
+:root{
+  --popeins: 'Poppins', sans-serif;
+  --monorop: 'Manrope', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
+.common_btn{
+  padding: 16px 48px;
+  border: 2px solid rgba(244, 246, 252, 0.20); 
+  border-radius: 41px;
+  color: #FFF;
+  font-family: var(--popeins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.2s;
+}
+.common_btn:hover{
+  background-color: #FCD980;
+  color: #1B1C2B;
+}
+/* common end */
