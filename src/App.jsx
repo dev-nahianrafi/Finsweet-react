@@ -10,6 +10,7 @@ import RootLayout from "./Layout/RootLayout";
 import Features from "./pages/Featcher/Features";
 import Priceing from "./pages/Priceing/Priceing";
 import Faq from "./pages/FAQ/Faq";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/features" element={<Features/>}/>      
           <Route path="/priceing" element={<Priceing/>}/>      
           <Route path="/FAQ" element={<Faq/>}/>      
+          <Route path="/blog" element={<Blog/>}/>      
         </Route>
         </>
     )
