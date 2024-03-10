@@ -8,6 +8,8 @@ import { Home } from "./pages/home/Home";
 import { About } from "./pages/About/About";
 import RootLayout from "./Layout/RootLayout";
 import Features from "./pages/Featcher/Features";
+import Priceing from "./pages/Priceing/Priceing";
+import Faq from "./pages/FAQ/Faq";
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>      
           <Route path="/features" element={<Features/>}/>      
+          <Route path="/priceing" element={<Priceing/>}/>      
+          <Route path="/FAQ" element={<Faq/>}/>      
         </Route>
         </>
     )

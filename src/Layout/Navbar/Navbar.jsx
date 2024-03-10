@@ -27,13 +27,13 @@ export const Navbar = () => {
                             <Link to="/features">features</Link>
                         </li>
                         <li>
-                            <a href="#">priceing</a>
+                            <Link to="/priceing">priceing</Link>
                         </li>
                         <li>
-                            <a href="#">FAQ</a>
+                            <Link to="/FAQ">FAQ</Link>
                         </li>
                         <li>
-                            <a href="#">blog</a>
+                            <Link to="/blog">blog</Link>
                         </li>
                     </ul>
                 </div>
